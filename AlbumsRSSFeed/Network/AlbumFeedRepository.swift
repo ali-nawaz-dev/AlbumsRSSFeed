@@ -8,15 +8,6 @@
 import Foundation
 import RealmSwift
 
-enum NetworkError: Error {
-    case badURL
-    case errorParsingJSON
-    case noInternetConnection
-    case dataReturnedNil
-    case returnedError(Error)
-    case invalidStatusCode(Int)
-    case customError(String)
-}
 
 class AlbumFeedRepository {
     

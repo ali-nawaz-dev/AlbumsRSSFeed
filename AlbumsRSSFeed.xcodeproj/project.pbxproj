@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8516484D28A2CCF400B06902 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516484C28A2CCF400B06902 /* NetworkError.swift */; };
 		854DB5A828A125E0000CD1E3 /* AlbumFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB5A728A125E0000CD1E3 /* AlbumFeedRepository.swift */; };
 		854DB5AA28A1274F000CD1E3 /* AlbumFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB5A928A1274F000CD1E3 /* AlbumFeedViewModel.swift */; };
 		854DB5AC28A12CEA000CD1E3 /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB5AB28A12CEA000CD1E3 /* APIEndPoint.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8516484C28A2CCF400B06902 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		854DB5A728A125E0000CD1E3 /* AlbumFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumFeedRepository.swift; sourceTree = "<group>"; };
 		854DB5A928A1274F000CD1E3 /* AlbumFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumFeedViewModel.swift; sourceTree = "<group>"; };
 		854DB5AB28A12CEA000CD1E3 /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			children = (
 				854DB5A728A125E0000CD1E3 /* AlbumFeedRepository.swift */,
 				854DB5AB28A12CEA000CD1E3 /* APIEndPoint.swift */,
+				8516484C28A2CCF400B06902 /* NetworkError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				854DB5B028A13505000CD1E3 /* RealmExtensions.swift in Sources */,
 				854DB5BB28A17618000CD1E3 /* UIViewExtension.swift in Sources */,
 				854DB5B428A1666B000CD1E3 /* ImageDownloader.swift in Sources */,
+				8516484D28A2CCF400B06902 /* NetworkError.swift in Sources */,
 				854DB5AC28A12CEA000CD1E3 /* APIEndPoint.swift in Sources */,
 				854DB5B628A16AEE000CD1E3 /* AlbumFeedDetailViewModel.swift in Sources */,
 				854DB5BE28A197EC000CD1E3 /* AppCoordinator.swift in Sources */,

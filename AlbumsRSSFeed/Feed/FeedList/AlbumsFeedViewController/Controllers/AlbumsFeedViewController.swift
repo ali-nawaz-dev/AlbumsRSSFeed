@@ -77,7 +77,7 @@ extension AlbumsFeedViewController: AlbumFeedViewModelDelegate {
     
     func showRetryAlert(error: NetworkError) {
         
-        let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+        let alert = UIAlertController(title: "Error", message: error.getErrorMessage(), preferredStyle: .alert)
        
         alert.addAction(UIAlertAction(title: "Cancel", style: .destructive))
         
@@ -87,6 +87,7 @@ extension AlbumsFeedViewController: AlbumFeedViewModelDelegate {
         
         present(alert, animated: true)
     }
+    
 }
 
 extension AlbumsFeedViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
